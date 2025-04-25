@@ -14,11 +14,8 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 |Metric|Value|
 |---|---|
 |Total Applications|614|
-|---|---|
 |Total Approved Loans|422|
-|---|---|
 |Total Rejected Loans|192|
-|---|---|
 |Overall Approval Rate|69%|
 
 *Insight*: The overall loan approval rate is moderate, showing that there may be strict criteria affecting approvals.
@@ -27,9 +24,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 |Credit History|Approval Rate|
 |---|---|
 |Good|49%|
-|---|---|
 |Poor|5%|
-|---|---|
 |No History|46%|
 
 *Insight*: Applicants with a good credit history have a significantly higher loan approval rate compared to those with poor credit history, while those with no credit history have a significant approval rate.
@@ -38,7 +33,6 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 |Loan Status|Average Applicant Income|
 |---|---|
 |Approved|$5,384|
-|---|---|
 |Rejected|$5,446|
 
 *Insight*: Higher applicant income does not have any correlation with loan approval.
@@ -47,9 +41,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 |Property Area|Approval Rate|
 |---|---|
 |Urban|66%|
-|---|---|
 |Semi-Urban|77%|
-|---|---|
 |Rural|61%|
 
 *Insight*: Urban and Semi-Urban areas recorded higher approval rates than Rural areas.
@@ -58,11 +50,8 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 |No. of Dependents|No. of Applications|Approval Rate|
 |---|---|---|
 |0|360|69%|
-|---|---|---|
 |1|102|65%|
-|---|---|---|
 |2|101|75%|
-|---|---|---|
 |3|51|65%|
 
 *Insight*: Applicants with fewer dependents had more applications,and also higher approval rates.

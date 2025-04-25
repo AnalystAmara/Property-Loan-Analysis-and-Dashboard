@@ -1,16 +1,16 @@
-# LOAN APPLICATION DATASET ANALYSIS REPORT
+## LOAN APPLICATION DATASET ANALYSIS REPORT
 
-## Introduction
+### Introduction
 This report presents an analysis of the loan application dataset to identify key trends, patterns, and factors influencing loan approvals. The dataset contains information on applicants such as gender, marital status, education, income, loan amount, credit history, property area, and loan status.
 
 The purpose of this analysis is to provide actionable insights that could help in making data-driven lending decisions and improving loan approval processes.
 
-## Dataset Overview and Cleaning
+### Dataset Overview and Cleaning
 
 The dataset has a total of 614 rows and 13 columns. Most of the columns had blank cells, and they were filled in with ‘Unknown’, No History’, and ‘0’ were applicable. The right data types were allotted to each column using Power Query.
 
-## Key Findings
-### Loan Application Summary
+### Key Findings
+#### Loan Application Summary
 |Metric|Value|
 |---|---|
 |Total Applications|614|
@@ -20,7 +20,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 
 *Insight*: The overall loan approval rate is moderate, showing that there may be strict criteria affecting approvals.
 
-### Impact of Credit History on Loan Approval
+#### Impact of Credit History on Loan Approval
 |Credit History|Approval Rate|
 |---|---|
 |Good|49%|
@@ -29,7 +29,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 
 *Insight*: Applicants with a good credit history have a significantly higher loan approval rate compared to those with poor credit history, while those with no credit history have a significant approval rate.
 
-### Applicant Income vs Loan Status
+#### Applicant Income vs Loan Status
 |Loan Status|Average Applicant Income|
 |---|---|
 |Approved|$5,384|
@@ -37,7 +37,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 
 *Insight*: Higher applicant income does not have any correlation with loan approval.
 
-### Loan Status by Property Area
+#### Loan Status by Property Area
 |Property Area|Approval Rate|
 |---|---|
 |Urban|66%|
@@ -46,7 +46,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 
 *Insight*: Urban and Semi-Urban areas recorded higher approval rates than Rural areas.
 
-### Impact of Dependents on Loan Approval
+#### Impact of Dependents on Loan Approval
 |No. of Dependents|No. of Applications|Approval Rate|
 |---|---|---|
 |0|360|69%|
@@ -56,7 +56,7 @@ The dataset has a total of 614 rows and 13 columns. Most of the columns had blan
 
 *Insight*: Applicants with fewer dependents had more applications,and also higher approval rates.
 
-## Recommendations
+### Recommendations
 
 Based on the analysis, the following recommendations are proposed:
 1.	Focus marketing campaigns on applicants with good credit histories to increase approval rates.
@@ -64,7 +64,7 @@ Based on the analysis, the following recommendations are proposed:
 3.	Introduce flexible loan options for applicants with lower incomes but good repayment histories.
 4.	Develop targeted products for applicants with multiple dependents but stable incomes.
 
-## Conclusion
+### Conclusion
 
 This report provided valuable insights into factors influencing loan approvals within the dataset. Credit history, applicant income, property area, and number of dependents play significant roles in determining loan approval outcomes. Leveraging these insights can help improve lending strategies, risk assessment models, and customer targeting efforts.
 
